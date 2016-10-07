@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 90% Helvetica, Arial, sans-serif;
+}
+
+.title {
+	text-align: center;
+	margin: 3% 0 1% 0;
+	font-size: 1.75em;
+	color: #aaa;
+	letter-spacing: 1px;
+}
+
+.menu_content > *{
+	float: left;
+	margin-top: 3%;
+}
+
+@media (min-width: 992px){
+	.lg_3 {
+		width: 33.3%;
+		padding-left: 2%;
+	}
+	.menu_content {
+		padding-right: 2%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.md_1 {
+		width: 100%;
+	}
+	.md_2 {
+		width: 50%;
+	}
+	.menu_content {
+		padding-right: 3%;
+	}
+
+	.menu_content > * {
+		padding-left: 3%;
+	}
+}
+
+@media (max-width: 767px){
+	.sm_1 {
+		width: 100%;
+		padding: 0 6%;
+	}
+}
+
+.block_fill {
+	position: relative;
+	background: rgba(0,0,0,.3);
+	border: 1px solid rgba(0,0,100,.3);
+	padding: 20px;
+	padding-top: 50px;
+}
+
+.block_title {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 20px;
+	font-size: 1.25em;
+	background: #D0D0D0;
+	border-bottom: 1px solid rgba(0,0,100,.4);
+	border-left: 1px solid rgba(0,0,100,.4);
+}
+
+.block_fill-1 .block_title{
+	color: #006666;
+}
+
+.block_fill-2 .block_title{
+	color: #009b76;
+}
+
+.block_fill-3 .block_title{
+	color: #1cd3a2;
+}
+
+.block_content {
+	color: white;
+}
