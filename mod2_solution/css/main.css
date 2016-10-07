@@ -10,7 +10,7 @@ body {
 
 .title {
 	text-align: center;
-	margin: 3% 0 1% 0;
+	margin: 3% 0 2.5% 0;
 	font-size: 1.75em;
 	color: #aaa;
 	letter-spacing: 1px;
@@ -48,7 +48,7 @@ body {
 
 	.menu_content > * {
 		padding-left: 3%;
-		margin-top: 3%;
+		margin-top: 2%;
 	}
 }
 
