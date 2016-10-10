@@ -1,0 +1,30 @@
+
+#menu li a {
+	background: rgba(0,0,0,.1);
+	color: white;
+	border-right: 1px solid rgba(255,255,255,.3);
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+#menu li a:hover {
+	background: rgba(0,0,255,.1);
+	color: #555;
+}
+
+#main-title {
+	margin-top: 70px;
+	color: #aaa;
+}
+
+#main-content {
+	padding: 30px;
+}
+
+#tall-block {
+	float: none;
+	border-radius: 10px;
+	margin: 30px auto;
+	height: 1000px;
+	background: rgba(0,0,0,.1);
+	box-shadow: 0 0 3px 1px rgba(0,0,0,.3);
+}

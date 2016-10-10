@@ -1,0 +1,20 @@
+{
+  "name": "mod3",
+  "homepage": "https://github.com/Daniill/cours",
+  "authors": [
+    "daniill0401 <daniill0401@ya.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
