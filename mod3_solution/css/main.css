@@ -12,12 +12,12 @@
 }
 
 #main-title {
-	margin-top: 70px;
 	color: #aaa;
 }
 
 #main-content {
 	padding: 30px;
+	padding-top: 0;
 }
 
 #tall-block {
